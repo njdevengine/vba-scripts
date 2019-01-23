@@ -29,3 +29,5 @@ Dim v_philosopher As Boolean
 If v_philosopher = True
 	MsgBox = "its true"
 End If
+
+End Sub
