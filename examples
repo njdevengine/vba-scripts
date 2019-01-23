@@ -1,0 +1,31 @@
+Sub Vars()
+'basic string variables
+
+Dim v_name As String
+v_name = "Harry Potter"
+Dim V_titles As String
+v_title = "wizard"
+
+v_message = v_name + " is a " + v_title
+MsgBox (v_message)
+
+'String, Double(decimal), Long, Integer
+Dim v_age1, v_age2 As Integer
+
+Dim price, tax As Double
+price = 5.99
+tax = .07
+Dim tax_price As Double
+tax_price = price * tax
+
+Dim v_longVar As Long
+v_longVar = 10002301203120301203102301230
+
+'long can store more bytes
+'convert integer to a string for concatenation AKA typecasting
+str(tax_price)
+
+Dim v_philosopher As Boolean
+If v_philosopher = True
+	MsgBox = "its true"
+End If
