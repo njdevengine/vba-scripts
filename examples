@@ -31,3 +31,32 @@ If v_philosopher = True
 End If
 
 End Sub
+
+
+Sub calc()
+	
+	Dim price As Double
+	Dim tax As Double
+	Dim qty As Integer
+	Dim total as Double
+	
+	'or
+	
+	Dim price, tax, qty, total as Double
+	
+	Cells(2,1).Value = price
+	Cells(2,2).Value = tax
+	Cells(2,3).Value = qty
+	Cells(2,4).Value = total
+	
+	'or
+	
+	price = range("A2")
+	tax = range("B2")
+	qty = range("C2")
+	total = range("D2")
+	
+	total = price * (1 + tax) * qty
+	MsgBox("I got it the total is " + str (total)
+		
+End Sub
