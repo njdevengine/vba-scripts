@@ -1,3 +1,5 @@
+'to do: lets create some folders for the different scripts and save as .vbs
+
 Sub Vars()
 'basic string variables
 
