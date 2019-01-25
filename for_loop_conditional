@@ -1,0 +1,8 @@
+For i - 1 To 10
+		IF cells (i,1).value Mod 2 = 0 Then
+			Cells(i,2).value = "Even Row"
+		Else
+			Cells(i,2).value = "Odd Row"
+		End If
+	Next i
+End Sub
